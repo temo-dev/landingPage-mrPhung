@@ -5,7 +5,7 @@ import Review from "../components/Hero/Review";
 import Layout from "../layouts/Layout";
 import ListFood from "../components/Hero/ListFood";
 
-export default function IndexPage() {
+export default function HomePage() {
   return (
     <>
       <Layout>

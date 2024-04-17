@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Image from "next/image";
 import React from "react";
 
@@ -35,7 +36,7 @@ function Header() {
           </button>
           <ul className="top-main-menu">
             <li className="top-main-menu-li">
-              <a href="/home">Home</a>
+              <a href="/">Home</a>
               <img
                 className="top-main-menu-img"
                 src="assets/img/fullWM_1.jpg"
@@ -87,7 +88,7 @@ function Header() {
               <div className="ak-nav ak-medium">
                 <ul className="ak-nav_list">
                   <li className="menu-item-has-children">
-                    <a href="/home">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="/menu">Menu</a>

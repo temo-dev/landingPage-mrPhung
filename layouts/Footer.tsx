@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Image from "next/image";
 import React from "react";
 
@@ -47,7 +48,7 @@ function Footer() {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="/home">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
                       <a href="/menu">Menu</a>
